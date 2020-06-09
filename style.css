@@ -26,9 +26,7 @@ p,span{
     color: #26100c;
 }
 
-body{
-    background: #e9e7e6;
-}
+
 
 header{
     height: 100vh;
@@ -86,8 +84,8 @@ header{
 	height: 100%;
 	position: relative;
 	font-size: 1em;
-    background: linear-gradient(to bottom, rgb(38, 16, 12) 30%,rgba(255,255,255,1) 170%);	float: right;
-	
+background: white;
+float: right;	
 }
 
 .menumovil2 .hul .qe{
@@ -100,8 +98,12 @@ header{
 
 
 .menumovil2 .hul li a{
-	color: white;
-	font-size: 1.5em;
+    color: White;
+    font-size: 1.5em;
+    margin-left: 20px;
+ 
+    line-height: 40px;
+    
 }
 
 
@@ -161,8 +163,11 @@ header{
 
 .logofinalm img{
 
-	height: 90%;
-	width: 80%;
+	height: 80px;
+     margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+    padding: 5px;
 	
 }
 
@@ -185,6 +190,9 @@ span.icon-whatsapp {
     color: white;
 }
 
+.item img {
+    height: 23px;
+}
 .hul {
 	display: grid;
 	grid-template-columns: auto;
@@ -196,7 +204,7 @@ span.icon-whatsapp {
 
 	z-index: 11;
 	width: 100%;
-    text-align: center;
+    text-align: left;
     align-content: center;
 	
 }
@@ -204,13 +212,13 @@ span.icon-whatsapp {
 
 
 .hul li{
-	margin: 0 auto;
-    width: 100%;
-    box-shadow: 10px 10px 9px -10px rgba(0,0,0,.5);
-    border-radius: 10px;
-    margin-top: 50px;
-    width: 250px;
-    padding-bottom: 10px;
+        width: 100%;
+        background: url(img/manchacafe.png);
+        background-size: contain;
+        margin-top: 15px;
+        padding-bottom: 1px;
+        background-position-x: -7px;
+        background-repeat: no-repeat;
 	
 }
 
@@ -301,6 +309,7 @@ span.icon-whatsapp {
 .containermovil img {
     height: 80px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 
@@ -624,7 +633,7 @@ a span.flechatipica {
 
 
 .historia span{
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     font-family: Cambria, serif;
 
@@ -632,9 +641,9 @@ a span.flechatipica {
 }
 
 .historia p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
-    margin-right: 10px;
+    
 
 }
 
@@ -684,6 +693,8 @@ a span.flechatipica {
     height: 30vh;
     display: grid;
     text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 .cita1 p {
@@ -708,6 +719,9 @@ a span.flechatipica {
         "c c";
 }
 
+.idalychocolat{
+    position: relative;
+}
 
 .idalychocolat img{
     width: 100%;
@@ -719,8 +733,93 @@ a span.flechatipica {
    width: 100%;
 }
 
+.verb{
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a.verb {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 30px;
+    background: rgba(255,255,255,.1);
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 30px;
+}
+
+
+
+
+
+.verb2, .verb3{
+    position: absolute;
+
+    left: 0;
+    bottom: 20%;
+    background: url(img/manchanaranja.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a.verb2,a.verb3 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #26100c;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 30px;
+}
+
+a.verb3 {
+    width: 250px;
+   
+}
+
+.verb2{
+    padding: 5px 25px;
+    background-size: contain;
+}
+
 .mia {
     grid-area: b;
+    position: relative;
 }
 
 .mia img {
@@ -730,6 +829,7 @@ a span.flechatipica {
 
 .isuss {
     grid-area: c;
+    position: relative;
 }
 
 .isuss img {
@@ -760,13 +860,15 @@ a span.flechatipica {
     height: 30vh;
     display: grid;
     text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 
 .cursos {
     display: grid;
     grid-template-rows: auto auto;
-    background: white;
+    background: #e9e7e6;
 }
 
 .introcursos {
@@ -850,6 +952,12 @@ a span.flechatipica {
     height: 30vh;
     display: grid;
     text-align: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cita3e{
+    margin: 0;
 }
 
 span.icon-flecha-down.flechatipica.flecha2 {
@@ -876,14 +984,10 @@ footer{
     
     display: grid;
     background: white;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-.rrss{
-    display: grid;
-   
-   
-    align-content: center;
-}
 
 .rrss span {
     margin-bottom: 20px;
@@ -904,13 +1008,13 @@ footer{
     margin-top: 3px;
     text-decoration: none;
     color: white;
+    margin: 20px;
 }
 
 .rrssif p a:hover{
-    margin-left: 1.6183em;
-    margin-top: 3px;
-    text-decoration: underline;
+   transform: scale(1.2);
 }
+
 
 .direccion{
    
@@ -932,10 +1036,18 @@ footer{
 
 .rrssif span {
     color: #ff4000;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
 }
+
 
 .rrssif {
     margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -945,7 +1057,7 @@ footer{
     font-family: cambria, serif;
     justify-items: center;
     text-align: center;
-    color: #ff4000;
+  
     font-size: 1.2em;
 }
 
@@ -959,10 +1071,7 @@ footer{
 
 span.spanfoot {
     text-align: right;
-    background: url(img/manchanaranja.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: -20px;
+ 
     font-size: 1.6em;
     font-weight: bold;
     display: grid;
@@ -970,25 +1079,28 @@ span.spanfoot {
     justify-content: flex-start;
     align-items: center;
     color: #26100c;
-    height: 60px;
+  
     cursor: pointer;
+}
+
+.foots{
+    background: url(img/manchanaranja.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: -40px;
+    display: grid;
+    padding: 10px;
+}
+.foots:hover {
+    background-position-x: -1px;
 }
 
 span.spanfoot img {
     height: 30px;
 }
 
-.datosdirect img{
-   
-    margin: 20px auto;
-    height: 60px;
-}
 
-.direccion span:hover{
-    text-decoration: underline;
-    
-   
-}
+
 
 .diseño{
     height: 80px;
@@ -999,6 +1111,462 @@ span.spanfoot img {
 }
 
 
+.imgdatos{
+    height: 60px;
+    display: block;
+    margin: 20px auto;
+}
+
+.imgdatos:hover {
+    transform: scale(1.5);
+}
+
+.dif {
+    text-align: center;
+    display: block;
+}
+
+.footsg {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    align-content: center;
+}
+
+.datosg {
+    display: grid;
+    
+    
+}
+
+/* modal */
+
+.modalservicio {
+    display: none;
+}
+
+.modalservicio:target {
+    display: grid;
+    position: fixed;
+    background: rgba(0,0,0,.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1100;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.modalservicio h3 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 2px #444;
+    margin-top: 40px;
+}
+
+.modalservicio p {
+    color: white;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagen a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+.galeriaentradas ul {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.galeriaentradas ul li {
+    width: 100%;
+    list-style: none;
+}
+
+li.eti1, li.eti2, li.eti3, li.eti4 {
+    list-style: none;
+    padding: 30px 0;
+    color: #ff9e00;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+.galeriaentradas a.agale {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 70px;
+    width: 300px;
+    color: #009ece;
+}
+.galeriaentradas ul li a {
+    width: 100%;
+}
+
+.imagen img {
+    height: 230px;
+    border-radius: 20px;
+}
+.iconxmodals {
+    top: 0;
+    right: 0;
+    background: rgba(255,255,255,.3);
+    color: white;
+    opacity: .4;
+}
+.btnser {
+    background: rgba(255,255,255,.2);
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.btnpruebas {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background: #26100c;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    margin-left: 10px;
+  
+    box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
+}
+
+.cerrar {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.cerrar a {
+    text-decoration: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    margin: auto;
+    font-size: 0.7em;
+    text-align: center;
+    display: block;
+}
+
+.cerrar span.icon-x {
+    position: initial;
+    display: grid;
+    background: rgba(255,255,255,.5);
+}
+
+/* .cerrarx{
+    background: #26100c;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+
+    color: #fff;
+    text-align: center;
+ 
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+} */
+
+span.icon-x.cerrarx {
+    background: rgba(38,16,12,.2);
+}
+.redesiframe{
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.redessocialesif {
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    
+    
+}
+.redessocialesif {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.redesiframe iframe{
+    
+        display: grid;
+        margin: auto;
+        margin-bottom: 30px;
+    
+}
+
+blockquote {
+    
+    margin: 0 auto;
+    
+}
+
+.redesiframe2 {
+    display: block;
+    margin: 0 auto;
+}
+
+.mapa {
+    height: 300px;
+    width: 95%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.datosg2{
+    display: grid;
+    
+}
+
+
+/* end movil */
+
+.footsg span.spanfoot3 {
+    text-align: center;
+    display: block;
+    margin-bottom: 30p
+    x;
+}
+
+.mapa span.mapavisi {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: url(img/idaly-taller.jpg);
+}
+
+.datosg22 {
+    display: grid;
+}
+
+
+
+/* modal */
+
+#cerrar3{
+    display:none;
+}
+
+#cerrar3 + label{
+    position: fixed;
+    color: #fff;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+.modal{
+    display: none;
+}
+
+.modal:target {
+	display: grid;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1050;
+	overflow: scroll;
+}
+
+.modalv22:target {
+    background: linear-gradient(180deg, rgba(255,255,255,.9) 10%, rgba(38,16,12,1) 100%);
+}
+
+.modalv2 {
+    margin-top: 70px;
+    max-width: 400px;
+}
+
+.modal2 {
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    overflow: hidden;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    -webkit-appearance: none;
+}
+.modal2 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #26100c;
+}
+
+input, textarea {
+    padding: 7px;
+    font-size: 1em;
+    /* background: rgba(255,255,255, .9); */
+    color: #999;
+    border: none;
+    height: 40px;
+    margin-bottom: 15px;
+    background: rgba(255,255,255,.3);
+    -webkit-appearance: none;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-size: 1em;
+    height: 50px;
+    background: rgba(38,16,12,.3);
+    border-bottom: rgba(0,0,0,.2);
+    -webkit-appearance: none;
+}
+
+.modalv2 input.sumitb {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.sumitb {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background:#ff4400;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    transition: 0.5s ease-out;
+    height: 40px;
+    box-shadow: 10px 10px 18px -11px rgba(0,0,0,1);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-appearance: none;
+}
+
+
+
+
+/* .cerrar {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.cerrar a {
+    text-decoration: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    margin: auto;
+    font-size: 0.7em;
+    text-align: center;
+    display: block;
+} */
+
+.icon-x {
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+}
+
+.fantasma {
+    width: 100%;
+    height: 200px;
+}
+
+.datoss p {
+    color: rgba(0,0,0,.3);
+    font-size: 13px;
+}
+
+.imgmodalf{
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+    padding: 5px;
+
+}
+
+
+/* end modal */
 
 
 
@@ -1151,6 +1719,38 @@ span.spanfoot img {
 
 span.icon-flecha-down.flechatipica.flecha2 {
     display: none;
+}
+
+.verb{
+    background-size: cover;
+padding: 5px 25px;
+}
+
+a.verb,a.verb2,a.verb3 {
+    font-size: 1.2em;
+}
+
+a.verb3{
+    width: 350px;
+}
+
+.redessocialesif {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.datosg{
+    grid-template-columns: 50% 50%;
+}
+
+.datosg2{
+    margin-top: 30px;
+    grid-template-columns: 50% 50%;
+}
+
+.imagen img {
+    height: 400px;
+  
 }
 
 

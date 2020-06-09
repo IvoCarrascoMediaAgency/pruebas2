@@ -174,3 +174,16 @@ $('.sumitb').on('click', function(){
   
 
 
+// abrir cerrar 
+
+function abrir(){
+  document.getElementById("modal").style.display="grid";
+}
+
+function cerrar(){
+  document.getElementById("modal").style.display="none";
+}
+
+function abrirms(){
+  document.getElementsByClassName("modalservicio").style.display="grid";
+}
