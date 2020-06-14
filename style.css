@@ -17,13 +17,13 @@ html{
 
 h1,h2,h3,h4,a{
     font-family: Cambria, serif;
-    color: #26100c;
+    color: #5f3720;
 
 }
 
 p,span{
     font-family: 'Roboto', sans-serif;
-    color: #26100c;
+    color: #5f3720;
 }
 
 
@@ -36,7 +36,7 @@ header{
 /* menu */
 .menu {
     border-radius: 50%;
-    background: #ff4000;
+    background: #ef6715;
     top: 10px;
     /* box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF; */
     cursor: pointer;
@@ -413,7 +413,7 @@ span.icon-whatsapp {
   }
 
 .sec1{
-    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/coleccion-verano-2020.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/img1.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: cover;
@@ -425,7 +425,7 @@ span.icon-whatsapp {
 
 }
 .sec2{
-    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/proximos-cursos.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/proximos-cursos.png);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: cover;
@@ -449,7 +449,7 @@ span.icon-whatsapp {
 }
   
 .sec4{
-    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/alfajor-mia.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/alfajor-mia.png);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: cover;
@@ -506,7 +506,7 @@ span.icon-whatsapp {
  
   
   .btn-prev:hover, .btn-next:hover {
-    background: #ff4000;
+    background: #ef6715;
   }
   
   .btn-prev {
@@ -533,29 +533,49 @@ span.icon-whatsapp {
    
     align-items: center;
     text-align: center;
-    margin-top: -200px;
+    
 
     display: grid; 
     /* justify-items: center; */
     /* align-items: center; */
     text-align: center;
-    margin-top: -400px;
+
     /* position: initial; */
     display: flex;
   
 }
 
 .mk-info h1{
-    font-size: 1.5em;
+     font-size: 1.5em;
     color: white;
     font-weight: bold;
-    margin: auto;
+    margin: auto; 
+
+    background-size: cover;
+    background-position: center;
+    /* margin: 30px; */
+    font-size: 1em;
+    padding: 10px;
+    /* margin: 100%; */
+    /* border-radius: 10px; */
+    /* border: 1px solid #ee7123; */
+    width: 100%;
 
 }
 .mk-info a {
     
     text-decoration: none;
-    margin: auto;
+    margin: auto; 
+
+
+    border: 1px solid white;
+ 
+    text-decoration: none;
+    border-radius: 30px;
+    background: #5f3720;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
 
 
 }
@@ -602,7 +622,7 @@ a span.flechatipica {
     overflow: hidden;
     display: block;
     text-align: center;
-    margin-top: -130px;
+    margin-top: -100px;
 
 }
 
@@ -613,7 +633,7 @@ a span.flechatipica {
 
 @keyframes example {
     from {top:0; color: #fde5f3}
-    to {top:7px; color: #ff4000;}
+    to {top:7px; color: #ef6715;}
 }
 
 .about{
@@ -677,7 +697,7 @@ a span.flechatipica {
     width: 200px;
     text-decoration: none;
     border-radius: 30px;
-    background: rgba(255,255,255,.1);
+    background: #5f3720;
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
@@ -700,7 +720,7 @@ a span.flechatipica {
 .cita1 p {
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: cambria, serif;
     color: white;
   
@@ -712,7 +732,7 @@ a span.flechatipica {
     display: grid;
     grid-template-columns: auto auto;
     height: 30%;
-    background: #26100c;
+    background: #5f3720;
     width: 100%;
     grid-template-areas:
         "a b"
@@ -759,7 +779,7 @@ a.verb {
     
     text-decoration: none;
     border-radius: 30px;
-    background: rgba(255,255,255,.1);
+    background: #5f3720;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
@@ -800,7 +820,7 @@ a.verb2,a.verb3 {
     
     text-decoration: none;
     border-radius: 30px;
-    background: #26100c;
+    background: #5f3720;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
@@ -846,7 +866,7 @@ a.verb3 {
   
 }
 .cita2 {
-    background: #ff4000;
+    background: #ef6715;
     height: 30vh;
     display: grid;
    
@@ -902,7 +922,7 @@ a.verb3 {
 .fotocurso{
     display: grid;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/proximos-cursos.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/proximos-cursos.png);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: cover;
@@ -919,7 +939,7 @@ a.verb3 {
     max-width: 200px;
     text-decoration: none;
     border-radius: 30px;
-    background: rgba(255,255,255,.1);
+    background: #5f3720;
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
@@ -932,13 +952,13 @@ a.verb3 {
 .cita3 p {
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: cambria, serif;
     color: white;
   
 }
 .cita3 {
-    background: #ff4000;
+    background: #ef6715;
     height: 30vh;
     display: grid;
    
@@ -1024,7 +1044,7 @@ footer{
 
 }
 .direccion span{
-    color: #26100c;
+    color: #5f3720;
 }
 
 .rrssif p {
@@ -1035,7 +1055,7 @@ footer{
 }
 
 .rrssif span {
-    color: #ff4000;
+    color: #ef6715;
     text-align: center;
     margin: 0 auto;
     display: block;
@@ -1053,7 +1073,7 @@ footer{
 
 .datosdirect span {
     margin-bottom: 4px;
-    color: #26100c;
+    color: #5f3720;
     font-family: cambria, serif;
     justify-items: center;
     text-align: center;
@@ -1078,7 +1098,7 @@ span.spanfoot {
     grid-template-columns: 60px auto;
     justify-content: flex-start;
     align-items: center;
-    color: #26100c;
+    color: white;
   
     cursor: pointer;
 }
@@ -1227,7 +1247,7 @@ li.eti1, li.eti2, li.eti3, li.eti4 {
 
 .imagen img {
     height: 230px;
-    border-radius: 20px;
+    
 }
 .iconxmodals {
     top: 0;
@@ -1250,7 +1270,7 @@ li.eti1, li.eti2, li.eti3, li.eti4 {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background: #26100c;
+    background: #5f3720;
     border: 1px solid white;
     border-radius: 20px;
     width: 250px;
@@ -1287,7 +1307,7 @@ li.eti1, li.eti2, li.eti3, li.eti4 {
 }
 
 /* .cerrarx{
-    background: #26100c;
+    background: #5f3720;
     display: -webkit-flex;
     display: flex;
     position: absolute;
@@ -1456,7 +1476,7 @@ form {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #26100c;
+    color: #5f3720;
 }
 
 input, textarea {
@@ -1586,7 +1606,7 @@ select {
         display: grid;
         grid-template-columns: 80% auto;
         align-items: center;
-    margin-top: 10px;
+    
     width: 100%;
     }
 
@@ -1611,7 +1631,7 @@ select {
 
     .containernav li a {
         text-decoration: none;
-        color: #26100c;
+        color: #5f3720;
      
         font-size: 1.2em;
     }
@@ -1676,11 +1696,11 @@ select {
 .mk-info h1{
    
 
-    background-image: url(img/manchanaranja.png);
+    /* background-image: url(img/manchanaranja.png); */
     background-size: cover;
     background-position: center;
-    margin: 30px;
-    font-size: 1.5em;
+    /* margin: 30px; */
+    font-size: 1em;
     padding: 10px;
     /* margin: 100%; */
     /* border-radius: 10px; */
@@ -1692,7 +1712,16 @@ select {
 .mk-info a {
     
    
-    margin: 0;
+  
+    color: white;
+    border: 1px solid white;
+ 
+    text-decoration: none;
+    border-radius: 30px;
+    background: #5f3720;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
 
 
 }
@@ -1707,9 +1736,9 @@ select {
     grid-template-columns: 50% 50%;
 }
 
-.boutique{
+/* .boutique{
     grid-template-columns: 50% 50%;
-}
+} */
 
 
 
@@ -1727,12 +1756,10 @@ padding: 5px 25px;
 }
 
 a.verb,a.verb2,a.verb3 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-a.verb3{
-    width: 350px;
-}
+
 
 .redessocialesif {
     display: grid;
@@ -1752,12 +1779,20 @@ a.verb3{
     height: 400px;
   
 }
-a.verb2,a.verb3{
+a.verb2{
    max-width: 200px;
 }
 
 a.verb{
     max-width: 200px;
+}
+
+a.verb3{
+    max-width: 350px;
+}
+
+.mk-info{
+    margin-top: -200px;
 }
 }
 
