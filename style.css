@@ -560,6 +560,8 @@ span.icon-whatsapp {
     /* border-radius: 10px; */
     /* border: 1px solid #ee7123; */
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 .mk-info a {
@@ -860,7 +862,7 @@ a.verb3 {
 .cita2 p {
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: cambria, serif;
     color: white;
   
@@ -946,6 +948,8 @@ a.verb3 {
 
     margin: auto;
     margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
