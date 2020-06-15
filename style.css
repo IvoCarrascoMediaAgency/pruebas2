@@ -1157,6 +1157,10 @@ span.spanfoot img {
     align-content: center;
 }
 
+.footsg a{
+    text-decoration: none;
+}
+
 .datosg {
     display: grid;
     
@@ -1409,7 +1413,32 @@ blockquote {
     display: grid;
 }
 
+.datosg22 a {
+    text-decoration: none;
+    text-align: center;
+}
 
+.enlinea{
+    height: 10px;
+    width: 10px;
+    border-color: #25d366;
+    background: #25d366;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 11px;
+    border: 1px solid #999;
+    margin-left: 20px;
+    position: relative;
+    bottom: 7px;
+    line-height: 7px;
+    font-size: 14px;
+}
+
+span.enlinea.tripimg {
+    font-size: 0.8em;
+    color: #25d366;
+}
 
 /* modal */
 
