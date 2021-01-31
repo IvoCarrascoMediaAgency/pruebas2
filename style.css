@@ -7,6 +7,8 @@ html{
 	
 }
 
+
+
 *,
 *:after,
 *::before{
@@ -29,7 +31,7 @@ p,span{
 
 
 header{
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
 }
 
@@ -76,7 +78,15 @@ header{
 
 
 }
+#finalpwv{
+text-decoration: none;
+}
 
+#finalpwv:hover{
+color: #ef6715;
+font-size: 1.1em;
+    transition: font-size 0.5s ease-in-out;
+}
 
 
 .menumovil2 .hul{
@@ -190,9 +200,9 @@ span.icon-whatsapp {
     color: white;
 }
 
-.item img {
+/* .item img {
     height: 23px;
-}
+} */
 .hul {
 	display: grid;
 	grid-template-columns: auto;
@@ -522,6 +532,10 @@ span.icon-whatsapp {
    
 }
 
+.btn-prev span,.btn-next span {
+    color: white;
+}
+
 
 
 
@@ -646,7 +660,7 @@ a span.flechatipica {
     height: 100vh;
     display: grid;
     margin: 0 auto;
-    background: #e9e7e6;
+    background: #ecd7bf;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -675,13 +689,14 @@ a span.flechatipica {
 
 .fotoabout {
     position: relative;
-    height: 100vh;
+ 
     overflow: hidden;
     display: flex;
 }
 
 .fotoabout img{
     height: 100%;
+    width: 100%;
 }
 
 .fotoabout a {
@@ -704,9 +719,21 @@ a span.flechatipica {
     font-weight: bold;
     cursor: pointer;
     bottom: 50px;
+    transition: 0.5s ease-out;
+
+}
+
+.fotoabout a:hover{
+    background: white;
+    color: #5f3720;
+    border: 1px solid #5f3720;
 }
 
 .cita1 {
+    background: #ef6715;
+    height: 30vh;
+    display: grid;
+    text-align: center;
     background: url(img/manchacafe.png);
     background: cover;
     background-position: center;
@@ -715,8 +742,9 @@ a span.flechatipica {
     height: 30vh;
     display: grid;
     text-align: center;
-    max-width: 1024px;
+    max-width: 500px;
     margin: 0 auto;
+    
 }
 
 .cita1 p {
@@ -730,7 +758,7 @@ a span.flechatipica {
 
 
 
-.creaciones {
+/* .creaciones {
     display: grid;
     grid-template-columns: auto auto;
     height: 30%;
@@ -739,13 +767,18 @@ a span.flechatipica {
     grid-template-areas:
         "a b"
         "c c";
+} */
+
+div#shop {
+    display: grid;
+  
 }
 
-.idalychocolat{
+ .idalychocolat{
     position: relative;
-}
+} 
 
-.idalychocolat img{
+ .idalychocolat img{
     width: 100%;
     grid-area: a;
 }
@@ -753,7 +786,8 @@ a span.flechatipica {
 .idalychocolat img {
    
    width: 100%;
-}
+   height: 100%;
+} 
 
 .verb{
     position: absolute;
@@ -829,7 +863,7 @@ a.verb2,a.verb3 {
     bottom: 30px;
 }
 
-a.verb3 {
+a.verb3, a.verb, a.verb2 {
     width: 250px;
    
 }
@@ -840,22 +874,22 @@ a.verb3 {
 }
 
 .mia {
-    grid-area: b;
+    
     position: relative;
-}
+} 
 
 .mia img {
-    
+    height: 100%;
     width: 100%;
 }
 
-.isuss {
-    grid-area: c;
+ .isuss {
+    
     position: relative;
-}
+} 
 
 .isuss img {
-   
+   height: 100%;
     width: 100%;
 }
 
@@ -882,7 +916,7 @@ a.verb3 {
     height: 30vh;
     display: grid;
     text-align: center;
-    max-width: 1024px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -890,7 +924,7 @@ a.verb3 {
 .cursos {
     display: grid;
     grid-template-rows: auto auto;
-    background: #e9e7e6;
+    background: #ecd7bf;
 }
 
 .introcursos {
@@ -950,8 +984,13 @@ a.verb3 {
     margin-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: 0.5s ease-out;
 }
-
+.fotocurso a:hover,.boutique a:hover{
+    background: white;
+    color: #5f3720;
+    border: 1px solid #5f3720;
+}
 
 .cita3 p {
     font-family: 'Roboto', sans-serif;
@@ -976,13 +1015,13 @@ a.verb3 {
     height: 30vh;
     display: grid;
     text-align: center;
-    max-width: 1024px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
-.cita3e{
+/* .cita3e{
     margin: 0;
-}
+} */
 
 span.icon-flecha-down.flechatipica.flecha2 {
     margin-top: 0;
@@ -992,7 +1031,8 @@ span.icon-flecha-down.flechatipica.flecha2 {
 
 .boutique{
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
+    align-items: center;
     background-image: linear-gradient(to bottom, rgba(0, 0,0, .5), rgba(0, 0, 0, .5)), url(img/boutique.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
@@ -1002,13 +1042,24 @@ span.icon-flecha-down.flechatipica.flecha2 {
   
 }
 
+.btncar{
+    margin: 20px 0;
+    text-align: center;
+}
+
 footer{
     
     width: 100%;
     
     display: grid;
     background: white;
-    max-width: 1024px;
+    /* max-width: 1024px; */
+    margin: 0 auto;
+    background: #ecd7bf;
+}
+
+.rrss {
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -1060,18 +1111,19 @@ footer{
 
 .rrssif span {
     color: #ef6715;
-    text-align: center;
-    margin: 0 auto;
+    /* text-align: center; */
+    /* margin: 0 auto;
     display: block;
-    margin-top: 10px;
+    margin-top: 10px; */
 }
 
 
 .rrssif {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: grid;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 40px; */
 }
 
 
@@ -1079,10 +1131,11 @@ footer{
     margin-bottom: 4px;
     color: #5f3720;
     font-family: cambria, serif;
-    justify-items: center;
-    text-align: center;
+    /* justify-items: center;
+    text-align: center; */
   
-    font-size: 1.2em;
+    font-size: 1em;
+    transition: 0.5s ease-out;
 }
 
 
@@ -1090,6 +1143,18 @@ footer{
     display: grid;
     
    
+}
+/* .rrsif2{
+    text-align: center;
+} */
+.rrsif2 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5f3720;
+    font-size: 1em;
+    /* text-align: center; */
+    text-align: left;
+    
+
 }
 
 
@@ -1108,15 +1173,17 @@ span.spanfoot {
 }
 
 .foots{
-    background: url(img/manchanaranja.png);
+    background: url(img/manchacafe.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: -40px;
     display: grid;
     padding: 10px;
+    transition: 1s ease-out;
 }
 .foots:hover {
     background-position-x: -1px;
+    transition: background-position-x 1s ease-in-out;
 }
 
 span.spanfoot img {
@@ -1127,7 +1194,7 @@ span.spanfoot img {
 
 
 .diseño{
-    height: 80px;
+    height: 50px;
     display: grid;
     text-align: center;
     background-color: white;
@@ -1138,12 +1205,12 @@ span.spanfoot img {
 .imgdatos{
     height: 60px;
     display: block;
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
-
+/* 
 .imgdatos:hover {
     transform: scale(1.5);
-}
+} */
 
 .dif {
     text-align: center;
@@ -1289,6 +1356,8 @@ li.eti1, li.eti2, li.eti3, li.eti4 {
     box-shadow: 10px 10px 34px -11px rgba(0,0,0,1);
 }
 
+
+
 .cerrar {
     margin-top: 20px;
     position: absolute;
@@ -1352,7 +1421,7 @@ span.icon-x.cerrarx {
     
 }
 .redessocialesif {
-    height: 100%;
+    height: 500px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -1411,11 +1480,16 @@ blockquote {
 
 .datosg22 {
     display: grid;
+    grid-gap: 15px;
+}
+
+.datosg22 a:hover{
+    color: #ef6715;
 }
 
 .datosg22 a {
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .enlinea{
@@ -1556,6 +1630,14 @@ select {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.sumitb:hover{
+    color: #ef6715;
+    background: white;
+    border: 1px solid #ef6715;
+
 }
 
 
@@ -1618,17 +1700,293 @@ select {
 
 }
 
+.navq, .navw{
+    display: grid;
+    grid-gap: 15px;
+    margin: 20px 0;
+   
+    justify-items: center;
+}
+
+.navq a, .navw a{
+    text-decoration: none;
+}
+.navq a:hover, .navw a:hover{
+    color: #ef6715;
+    transition: 0.5s ease-out;
+}
+
+.navq a,.navq a span::before{
+    color: #5f372073;
+}
+
+.navw a span::before {
+    color: #5f372073;
+}
+
+.navw p a {
+    margin-left: 20px;
+}
 
 /* end modal */
 
+.portada {
+    display: grid;
+    height: 100vh;
+    background-image: url(img/portada12.jpeg);
+    background-repeat: no-repeat;
+    /* background-position-x: 400px; */
+    /* background-size: contain;
+    max-width: 1024px;
+margin: 0 auto; */
+background-size: cover;
+
+}
+
+.dossec {
+    display: grid;
+    
+}
+
+
+.sectirulo{
+    display: grid;
+    align-content: end;
+justify-content: center;
+
+}
+
+.titulosec1 span{
+    display: grid;
+text-align: end;
+color: white;
+text-shadow: -3px 3px 1px black;
+font-size: 18px;
+}
+
+.segfoto img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+
+.titulosec1 h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 0px 9px black;
+}
+
+
+.btn1sec1,  .btn1sec2{
+/* text-align: center;
+
+left: 0;
+right: 0;
+color: white;
+border: 1px solid white;
+padding: 10px;
+
+text-decoration: none;
+border-radius: 30px;
+background: #5f3720;
+font-size: 1em;
+font-weight: bold;
+cursor: pointer;
+margin: 0 10px; */
+/* 
+background: url(img/manchacafe.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position-x: -40px;
+display: grid;
+padding: 10px; */
+}
+
+a.btn1sec2:hover {
+    background: #5f3720;
+    color: white;
+    border: 1px solid;
+} 
+
+a.btn1sec1:hover {
+    background: white;
+    color: #5f3720;
+ 
+
+}
+
+
+.btn1sec2, .btn1sec1{
+
+    color: white;
+    text-align: center;
+
+left: 0;
+right: 0;
+color: white;
+
+padding: 10px;
+
+text-decoration: none;
+cursor: pointer;
+
+border-radius: 30px;
+background: #5f3720;
+font-size: 1em;
+font-weight: bold;
+cursor: pointer;
+margin: 0 10px;
+border: 1px solid;
+transition: 0.5s ease-out;
+
+    /* color: #5f3720;
+    border: 1px solid #5f3720;
+ 
+
+    background: white; */
+}
+
+.btn1sec2{
+    color: #5f3720;
+    border: 1px solid #5f3720;
+ 
+
+    background: white;
+}
 
 
 
+.btnsec1 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.titulosec1 h1{
+    font-size: 3rem;
+}
+.formfoot {
+    margin-bottom: 30px;
+}
 
 @media screen and (min-width: 768px){
+    .titulosec1 h1{
+        font-size: 4rem;
+    }
+    
+
+    .sectirulo{
+        
+        align-content: center;
+   
+    
+    }
+
+    .dossec {
+    
+        grid-template-columns: 50% 50%;
+    }
+
+    .navw p a {
+        margin-left: 0px;
+    }
+
+    .navq, .navw{
+        display: block;
+    }
+
+    .fotoabout img{
+        height: 100%;
+      width: auto;
+    }
+
+    div#shop {
+        
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .fotoabout {
+
+        height: 100vh;
+        text-align: center;
+    display: grid;
+    align-items: center;
+     
+    }
+
+    .nav11 {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 50px;
+        align-items: center;
+    }
+
+    
+
+    .navq a {
+        margin-right: 20px;
+        color: #5f372073;
+    }
+   
+  
+    
+   
+
+    .navq a span{
+        /* margin-right: 20px; */
+        color: #5f372073;
+    }
+
+    .navw a {
+        margin-left: 10px;
+    }
+
+    .navw {
+    
+        text-align: end;
+    }
+
+    .navq a span::before{
+        color: #5f372073;
+    }
+
+    .navw a span::before{
+        color: #5f372073;
+    }
+
+    
+
+    .navq a ,.navw a{
+        text-decoration: none;
+    }
 
     nav.navbar {
         display: grid;
+    }
+
+    .navw a:hover {
+        transform: scale(1.3);
+        transition: 0.5s ease-out;
+        color: #5f3720;
+
+    }
+
+
+
+    .navq a:hover{
+        color: #ef6715;
+    }
+    .navw p a:hover{
+        color: #ef6715;
+    }
+
+    /* .navw a span:hover{
+        transform: scale(1.3);
+     } */
+
+     .navw p {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
     }
 
     .containermovil img{
@@ -1652,6 +2010,8 @@ select {
         align-items: center;
     }
 
+
+
     .containernav img {
         height: 50px;
         display: grid;
@@ -1667,7 +2027,28 @@ select {
         color: #5f3720;
      
         font-size: 1.2em;
+        transition: 0.5s ease-out;
+
     }
+    .containernav li a:hover {
+        color:#ff4000;
+    }
+
+    .introcursos img{
+        margin-top: 30px;
+    }
+
+/* .introcursos img{
+    
+    animation: example 1s linear 1s infinite alternate;
+}
+
+@keyframes example {
+    from {top:7px; color: #e9faef}
+    to {top:10px; color: #25d366;}
+} */
+
+    
 
     /* img.tripimg {
         height: 80px;
@@ -1699,7 +2080,7 @@ select {
     margin: auto auto auto 0;
     padding: 3px 10px;
     
-    font-size: 1.2em;
+    font-size: 1em;
     min-width: 170px;
   
     }
@@ -1776,7 +2157,7 @@ select {
 
 
 .cita1 p,.cita2 p,.cita3 p{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 span.icon-flecha-down.flechatipica.flecha2 {
@@ -1805,11 +2186,13 @@ a.verb,a.verb2,a.verb3 {
 
 .datosg2{
     margin-top: 30px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-bottom: 30px;
 }
 
 .imagen img {
     height: 400px;
+    border-radius: 10px;
   
 }
 a.verb2{
@@ -1818,6 +2201,13 @@ a.verb2{
 
 a.verb{
     max-width: 200px;
+}
+
+a.verb:hover,a.verb2:hover,a.verb3:hover{
+    background: white;
+    color: #5f3720;
+    border: 1px solid #5f3720;
+    transition: 0.5s ease-out;
 }
 
 a.verb3{
@@ -1837,3 +2227,4 @@ a span.flechatipica {
 
 /*  */
 
+}

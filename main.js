@@ -187,3 +187,29 @@ function cerrar(){
 function abrirms(){
   document.getElementsByClassName("modalservicio").style.display="grid";
 }
+
+
+// owl carusel
+
+$('.owl-carousel').owlCarousel({
+  // stagePadding: 10,
+
+  loop:true,
+  margin:10,
+  nav:true,
+
+  autoplay:true,
+  autoplayTimeout:1000,
+  autoplayHoverPause:true,
+  responsive:{
+      0:{
+          items:2
+      },
+      600:{
+          items:3
+      },
+      // 1000:{
+      //     items:4
+      // }
+  }
+})
